@@ -18,7 +18,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
 ```
 # Acesse a pasta do projeto
-cd seu-repositorio
+cd ../seguranca/atv1
 ```
 ```
 # Instale as dependências
