@@ -66,3 +66,30 @@ node criptoanalise.js "phqvdjhp vhfuhwd"
 #sendo a palavra entre aspas o texto cifrado pela cifra de cesar
 ```
 
+# ✅​ Atividade 4
+
+## 🚀 Cifra de Feistel com 16 rodadas.
+
+Cifra de Feistel com 16 rodadas usando Nodejs e com uma mensagem fixa que é encripto e descriptada.
+
+### 📋 Pré-requisitos
+
+- Node.js (v16 ou superior)
+- npm ou yarn
+- JavaScript (instalado globalmente ou como dependência)
+
+### ⚙️ Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+```
+# Acesse a pasta do projeto
+cd ../seguranca/atv4
+```
+
+```
+#Para usar a cifra de feistel:
+node feistel.js
+```
