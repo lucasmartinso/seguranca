@@ -30,5 +30,39 @@ npm install
 npx ts-node main.ts
 ```
 
-- Abra o endereço [http://localhost:3000/](http://localhost:3000/) e siga as instruções de testes descritas no JSON retornado
+
+# ✅​ Atividade 3
+
+## 🚀 Cifra de César e Criptoanálise
+
+Cifra de César e Cripto análise sobre a cifra de César
+
+### 📋 Pré-requisitos
+
+- Node.js (v16 ou superior)
+- npm ou yarn
+- JavaScript (instalado globalmente ou como dependência)
+
+### ⚙️ Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+```
+# Acesse a pasta do projeto
+cd ../seguranca/atv3
+```
+
+```
+#Para usar a cifra de cesar:
+node cifra "mensagem secreta" k
+#sendo 'k' o número de deslocamento escolhido pelo usuário
+```
+
+```
+#Para usar a cripto analise:
+node criptoanalise.js "phqvdjhp vhfuhwd"
+#sendo a palavra entre aspas o texto cifrado pela cifra de cesar
+```
 
