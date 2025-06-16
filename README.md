@@ -93,3 +93,40 @@ cd ../seguranca/atv4
 #Para usar a cifra de feistel:
 node feistel.js
 ```
+
+# ✅​ Atividade 8
+
+## 🚀 Diffie-Hellman (DH)
+
+Implementação do algoritmo de Diffie-Hellman.
+
+- Escolha de valores para p (número primo), g (raiz primitiva de p), a e b (segredos privados)
+
+- Cálculo das chaves públicas A e B
+
+- Cálculo do segredo compartilhado s
+
+### 📋 Pré-requisitos
+
+- Node.js (v16 ou superior)
+- npm ou yarn
+- JavaScript (instalado globalmente ou como dependência)
+
+### ⚙️ Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+```
+# Acesse a pasta do projeto
+cd ../seguranca/atv8
+```
+
+```
+#Para usar o algoritmo de Diffie-Hellman:
+node diffie-hellman.js p g a b
+#p é numero primo
+#g é raiz primitiva de p
+#a e #b são os segredos escolhidos  
+```
