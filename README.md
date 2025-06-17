@@ -14,18 +14,18 @@ Um sistema de controle de acesso baseado em roles (RBAC) implementado com Node.j
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/lucasmartinso/seguranca
 ```
-```
+```bash
 # Acesse a pasta do projeto
 cd ../seguranca/atv1
 ```
-```
+```bash
 # Instale as dependências
 npm install
 ```
 
-```
+```bash
 #Para inicializar use o comando:
 npx ts-node main.ts
 ```
@@ -47,20 +47,20 @@ Cifra de César e Cripto análise sobre a cifra de César
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/lucasmartinso/seguranca
 ```
-```
+```bash
 # Acesse a pasta do projeto
 cd ../seguranca/atv3
 ```
 
-```
+```bash
 #Para usar a cifra de cesar:
 node cifra "mensagem secreta" k
 #sendo 'k' o número de deslocamento escolhido pelo usuário
 ```
 
-```
+```bash
 #Para usar a cripto analise:
 node criptoanalise.js "phqvdjhp vhfuhwd"
 #sendo a palavra entre aspas o texto cifrado pela cifra de cesar
@@ -82,16 +82,50 @@ Cifra de Feistel com 16 rodadas usando Nodejs e com uma mensagem fixa que é enc
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/lucasmartinso/seguranca
 ```
-```
+```bash
 # Acesse a pasta do projeto
 cd ../seguranca/atv4
 ```
 
-```
-#Para usar a cifra de feistel:
+```bash
+# Para usar a cifra de feistel:
 node feistel.js
+```
+
+# ✅​ Atividade 7
+
+## 🚀 Blum Blum Shub + Teste na Suite do NIST
+
+Implementação do Blum Blum Shub. 
+
+- p = 7048053003400630596184514976106195847
+- q = 295176062037559772600963510661568257971
+- s = 1667603710137598766784243101217384314151686030153860199719323587303425110264887669253459480413242391278417601609437100440760246328554884798774724488266034
+- Print do Teste de NIST em ../repositorio/Teste_NIST.png
+- Gera um arquivo .txt com o binário gerado
+
+### 📋 Pré-requisitos
+
+- Node.js (v16 ou superior)
+- npm ou yarn
+- JavaScript (instalado globalmente ou como dependência)
+
+### ⚙️ Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/lucasmartinso/seguranca
+```
+```bash
+# Acesse a pasta do projeto
+cd ../seguranca/atv7
+```
+
+```bash
+# Para usar o algoritmo Blum Blum Shub:
+node bbs.js
 ```
 
 # ✅​ Atividade 8
@@ -116,17 +150,17 @@ Implementação do algoritmo de Diffie-Hellman.
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/lucasmartinso/seguranca
 ```
-```
+```bash
 # Acesse a pasta do projeto
 cd ../seguranca/atv8
 ```
 
-```
-#Para usar o algoritmo de Diffie-Hellman:
+```bash
+# Para usar o algoritmo de Diffie-Hellman:
 node diffie-hellman.js p g a b
-#p é numero primo
-#g é raiz primitiva de p
-#a e #b são os segredos escolhidos  
+# p é numero primo
+# g é raiz primitiva de p
+# a e #b são os segredos escolhidos  
 ```
