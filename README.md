@@ -30,6 +30,39 @@ npm install
 npx ts-node main.ts
 ```
 
+# ✅​ Atividade 2
+
+## 🚀 Google Oauth2
+
+Sistema de autenticação via Google Oauth2
+
+### 📋 Pré-requisitos
+
+- Node.js (v16 ou superior)
+- npm ou yarn
+- TypeScript (instalado globalmente ou como dependência)
+- LiveServer 
+
+### ⚙️ Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/lucasmartinso/seguranca
+```
+```bash
+# Acesse a pasta do projeto
+cd ../seguranca/atv2
+```
+```bash
+# Instale as dependências
+npm install
+```
+
+```bash
+#Para inicializar use o comando:
+npx ts-node .src/main.ts
+```
+
 
 # ✅​ Atividade 3
 
@@ -92,6 +125,48 @@ cd ../seguranca/atv4
 ```bash
 # Para usar a cifra de feistel:
 node feistel.js
+```
+
+# ✅​ Atividade 5
+
+## 🚀 AES review
+
+Review de Papers sobre AES ambos do ano de 2025, extraído do IEEE Xplor
+
+- No diretório ../seguranca/atv5/analyses , tem um arquivo .pdf sobre a revisão da leitura sobre cada um dos papers
+
+- No diretório ../seguranca/atv5/analyses , tem os dois papers analisados ambos em .pdf
+
+### ⚙️ Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/lucasmartinso/seguranca
+```
+```bash
+# Acesse a pasta do projeto
+cd ../seguranca/atv5
+```
+
+# ✅​ Atividade 6
+
+## 🚀 Operações em Cifras de Bloco
+
+Prática sobre Cifras em Blocos seguindo o roteiro 
+
+- Contém os arquivos resultantes das operações via bash Linux de cada uma das práticas
+- Contém um arquivo .pdf relativos aos inputs e outputs
+- Nesse mesmo arquivo .pdf contém a explicação sobre https://sweet32.info/
+
+### ⚙️ Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/lucasmartinso/seguranca
+```
+```bash
+# Acesse a pasta do projeto
+cd ../seguranca/atv6
 ```
 
 # ✅​ Atividade 7
